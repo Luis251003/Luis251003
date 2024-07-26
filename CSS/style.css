@@ -342,15 +342,18 @@ p{
         margin-top: 10rem;
     }
     .img__container-about-me{
-        transform: translateX(-10rem);
+        transform: translateX(-5rem);
     }
     .img__about-me{
-        height: 300px;
-        width: 300px;
+        height: 220px;
+        width: 220px;
     }
     .img__about-me-shadow{
-        height: 300px;
-        width: 300px;
+        height: 200px;
+        width: 200px;
+    }
+    .img__about-me-shadow{
+        left: -3rem;
     }
 }
 
