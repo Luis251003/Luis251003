@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="profesional,web,junior,proyectos,contacto">
+    <meta name="description" content="Pagina profesional de un desarrollador web junior">
+
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <title>Pagina Profesional</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="enlaces__container">
+                <li><a href="#section--about-me" class="selected nav__enlace" data-index="0"><i class="fa-solid fa-user"></i>Sobre mí</a></li>
+                <li><a href="#section--education" class="nav__enlace" data-index="1"><i class="fa-solid fa-graduation-cap"></i>Estudios</a></li>
+                <li><a href="#section--proyectos" class="nav__enlace" data-index="2"><i class="fa-solid fa-list-check"></i>Proyectos</a></li>
+                <li><a href="#section--logros" class="nav__enlace" data-index="3"><i class="fa-solid fa-trophy"></i>Logros</a></li>
+                <li><a href="#section--contacto" class="nav__enlace" data-index="4"><i class="fa-solid fa-address-book"></i>Contacto</a></li>
+                <span class="barra"></span>
+                <div class="exit__container">
+                    <img src="./Recursos/Icons/ICO__x.svg" alt="">
+                </div>
+            </ul>
+            <div class="menu__container">
+                <button class="btn-menu"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="hero__text">
+                <h1 class="hero__title">Luis Cabrera Ortiz</h1>
+                <p class="hero__cargo">Desarrollador Web</p>
+                <a class="hero__btn" href="https://wa.me/51972226417" target="_blank"><i class="fa-brands fa-whatsapp"></i> Escribeme</a>
+            </div>
+            <div class="hero__image">
+                <img src="./Recursos/Imagenes/UD_Pc.svg" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="section--about-me" class="section--about-me container section">
+            <div class="img__container-about-me ">
+                <span class="img__about-me-shadow"></span>
+                <div class="img__about-me">
+                    <img src="./Recursos/Imagenes/Foto.png" alt="">
+                </div>
+            </div>
+            <div class="text__about-me">
+                <h2 class="subtitulo">Sobre mi</h2>
+                <p class="description">
+                    Soy Luis Antonio Cabrera Ortiz, tecnico egresado y estudiante de la carrera de Ingenieria de Sistemas. En mis tiempos libres me apasiona escuchar música variada y viajar por el mundo
+                    <br><br>
+                    Me considero una persona productiva, autodidacta y constante en el aprendizaje de las tecnologias emergentes.
+                </p>
+                <ul class="items">
+                    <li><i class="fa-solid fa-chart-line"></i></li>
+                    <li><i class="fa-solid fa-book"></i></li>
+                    <li><i class="fa-solid fa-person-running"></i></li>
+                </ul>
+            </div>
+        </section>
+        <section id="section--education" class="section--education section">
+            <div class="container--education container">
+                <h2 class="subtitulo">Educación</h2>
+                
+                <div class="cards__education">
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="./Recursos/Imagenes/LG_Cibertec.png" alt="">
+                        </div>
+                        <div class="card__text">
+                            <h3 class="card__title card__title--cibertec">Cibertec</h3>
+                            <p class="card__carrera">Comp. e Informática</p>
+                            <p class="card__periodo">2021 - 2023</p>
+                        </div>
+                        <span class="card__estado card__estado--terminado">Terminado</span>
+                    </div>
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="./Recursos/Imagenes/LG_UPC.png" alt="">
+                        </div>
+                        <div class="card__text">
+                            <h3 class="card__title card__title--upc">UPC</h3>
+                            <p class="card__carrera">Ingenieria de sistemas</p>
+                            <p class="card__periodo">2024 - Ahora</p>
+                        </div>
+                        <span class="card__estado">Estudiando</span>
+                    </div>
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="./Recursos/Imagenes/LG_ICPNA.png" alt="">
+                        </div>
+                        <div class="card__text">
+                            <p class="card__carrera card__title--icpna">Ingles Americano</p>
+                            <p class="card__periodo">2023 - Ahora</p>
+                        </div>
+                        <span class="card__estado">Estudiando</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section--logros" class="section--logros section">
+            <div class="container--logros container">
+                <h2 class="subtitulo">Logros</h2>
+                <p class="description"> Durante mi vida técnica y universitaria he logrado las siguientes metas</p>
+                <div class="logros__container">
+                    <div class="logros__img">
+                        <img src="./Recursos/Imagenes/UD_Proyecto.svg" alt="">
+                    </div>
+                    <div class="logros__items">
+                        <div class="item">
+                            <div class="front">
+                                <div class="item__header">
+                                    <div class="item__icono">
+                                        <img src="./Recursos/Imagenes/LG-Cibertec-white.png" alt="">
+                                    </div>
+                                    <div class="item__titulo">
+                                        <h3>Certificado de Proyecto Web</h3>
+                                        <p>2022 - 2023</p>
+                                    </div>
+                                </div>
+                                <div class="item__description">
+                                    <p>Obtuve un reconocimiento por haber alcanzado el primer puesto en el curso de Desarrollo de Paginas Web.</p>
+                                </div>
+                            </div>
+                            <div class="back"></div>
+                        </div>
+                        <div class="item">
+                            <div class="front">
+                                <div class="item__header">
+                                    <div class="item__icono item__icono--white">
+                                        <i class="fa-solid fa-plane"></i>
+                                    </div>
+                                    <div class="item__titulo">
+                                        <h3>Work and travel</h3>
+                                        <p>2023 - 2024</p>
+                                    </div>
+                                </div>
+                                <div class="item__description">
+                                    <p>Logré participar en un viaje de intercambio cultural a Estados Unidos demostrando mi manejo del idioma Ingles a nivel intermedio.</p>
+                                </div>
+                            </div>
+                            <div class="back"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section--proyectos" class="section--proyectos section container">
+            <h2 class="subtitulo">Proyectos</h2>
+            <div class="proyectos__items">
+                <div class="item">
+                    <div class="item__img">
+                        <img src="./Recursos/Imagenes/IMG__hotel.jpg" alt="">
+                    </div>
+                    <div class="item__body">
+                        <div class="item__header">
+                            <h3>Mr. Shop</h3>
+                            <button class="btn-video" data-index="0"><i class="fa-solid fa-video"></i> Mirar</button>
+                        </div>
+                        <div class="item__main">
+                            <p>Sistema de ventas, reportes y consultas de un minimarket.</p>
+                            <ul class="item__iconos">
+                                <li><i class="fa-brands fa-html5"></i></li>
+                                <li><i class="fa-brands fa-js"></i></li>
+                                <li><i class="fa-brands fa-css3-alt"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <img src="./Recursos/Imagenes/IMG__minimarket.jpg" alt="">
+                    </div>
+                    <div class="item__body">
+                        <div class="item__header">
+                            <h3>Telotel</h3>
+                            <button class="btn-video" data-index="1"><i class="fa-solid fa-video"></i> Mirar</button>
+                        </div>
+                        <div class="item__main">
+                            <p>Sistema de reservación de habitaciones de un hotel.</p>
+                            <ul class="item__iconos">
+                                <li><i class="fa-brands fa-html5"></i></li>
+                                <li><i class="fa-brands fa-js"></i></li>
+                                <li><i class="fa-brands fa-css3-alt"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <img src="./Recursos/Imagenes/IMG__shoes.jpg" alt="">
+                    </div>
+                    <div class="item__body">
+                        <div class="item__header">
+                            <h3>SHOES</h3>
+                            <button class="btn-video" data-index="2"><i class="fa-solid fa-video"></i> Mirar</button>
+                        </div>
+                        <div class="item__main">
+                            <p>Formulario para una pagina de calzados incluyendo validación.</p>
+                            <ul class="item__iconos">
+                                <li><i class="fa-brands fa-html5"></i></li>
+                                <li><i class="fa-brands fa-js"></i></li>
+                                <li><i class="fa-brands fa-css3-alt"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <img src="./Recursos/Imagenes/IMG__minimarket.jpg" alt="">
+                    </div>
+                    <div class="item__body">
+                        <div class="item__header">
+                            <h3>Banco Misioneros</h3>
+                            <button class="btn-video" data-index="3"><i class="fa-solid fa-video"></i> Mirar</button>
+                        </div>
+                        <div class="item__main">
+                            <p>Sistema de solicitud de prestamos bancarios con reporte y mantenimiento.</p>
+                            <ul class="item__iconos">
+                                <li><i class="fa-brands fa-html5"></i></li>
+                                <li><i class="fa-brands fa-js"></i></li>
+                                <li><i class="fa-brands fa-css3-alt"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section--tecnologia" class="section--tecnologia">
+            <div class="container--tecnologia">
+                <figure><img src="./Recursos/Imagenes/LG__angular.png" alt=""></figure>
+                <figure><img src="./Recursos/Imagenes/LG__github.png" alt=""></figure>
+                <figure><img src="./Recursos/Imagenes/LG__java.png" alt=""></figure>
+                <figure><img src="./Recursos/Imagenes/LG__postman.png" alt=""></figure>
+                <figure><img src="./Recursos/Imagenes/LG__springboot.png" alt=""></figure>
+                <figure><img src="./Recursos/Imagenes/LG__mysql.png" alt=""></figure>
+                <figure class="auto"><img src="./Recursos/Imagenes/LG__html.png" alt=""></figure>
+                <figure class="auto"><img src="./Recursos/Imagenes/LG__css.png" alt=""></figure>
+                <figure class="auto"><img src="./Recursos/Imagenes/LG__js.png" alt=""></figure>
+            </div>
+        </section>
+        <section id="section--contacto" class="section section--contacto">
+            <div class="contacto__info">
+                <h2>Contactame</h2>
+                <ul class="contacto__container">
+                    <li><i class="fa-brands fa-linkedin"></i> Luis Cabrera Ortiz</li>
+                    <li><i class="fa-solid fa-phone"></i> +51 972 226 417</li>
+                    <li><i class="fa-solid fa-envelope"></i> Luisortiz251003@gmail.com</li>
+                    <li><i class="fa-brands fa-instagram"></i> Luis_Ortiz2503</li>
+                </ul>
+            </div>
+            <div class="contacto__formulario">
+                <h2>Enviar Correo</h2>
+                <form action="#" class="formulario">
+                    <div class="input__group">
+                        <input type="email" class="input" name="email" id="email">
+                        <label for="email">Correo</label>
+                    </div>
+                    <div class="input__group">
+                        <input type="text" class="input" name="asunto" id="asunto">
+                        <label for="asunto">Asunto</label>
+                    </div>
+                    <div class="input__group">
+                        <textarea name="mensaje" class="input input--mensaje" id="mensaje"></textarea>
+                        <label for="mensaje">Mensaje</label>
+                    </div>
+                    <button type="submit" class="btn-contacto"><i class="fa-solid fa-paper-plane"></i> Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container--footer">
+            <div class="footer__img">
+                <img src="./Recursos/Imagenes/UD_Redes.svg" alt="">
+            </div>
+            <ul class="footer__enlaces">
+                <div class="container">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#section--about-me">Sobre mi</a></li>
+                    <li><a href="#section--education">Educación</a></li>
+                </div>
+                <div class="container">
+                    <li><a href="#section--logros">Logros</a></li>
+                    <li><a href="#section--proyectos">Proyectos</a></li>
+                    <li><a href="#section--contacto">Contacto</a></li>
+                </div>
+            </ul>
+            <div class="footer__redes">
+                <h3>Sigueme</h3>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/luis-cabrera-ortiz-0b3011212/" target="_blank" class="linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="#" target="_blank" class="gmail"><i class="fa-solid fa-envelope"></i></a></li>
+                    <li><a href="https://www.instagram.com/luis_ortiz2503/" target="_blank" class="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://wa.me/51972226417" target="_blank" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <small>&copy; 2024 Luis Cabrera Ortiz. Todos los derechos reservados. Política de privacidad – Términos y condiciones.</small>
+    </footer>
+    <div class="video__container ">
+        <div class="video__position">
+            <div class="video__carrusel">
+                <div class="video__carrusel--container">
+                    <video class="video" src="./Recursos/Videos/VD__MR-SHOP.mp4" controls></video>
+                    <video class="video" src="./Recursos/Videos/VD__TELOTEL.mp4" controls></video>
+                    <video class="video" src="./Recursos/Videos/VD__FORMULARIO.mp4" controls></video>
+                    <video class="video" src="./Recursos/Videos/VD__MISIONEROS.mp4" controls></video>
+                </div>
+            </div>
+            <div class="arrow--left__container">
+                <img src="./Recursos/Icons/ICO__arrow-l.svg" alt="">
+            </div>
+            <div class="arrow--right__container">
+                <img src="./Recursos/Icons/ICO__arrow-r.svg" alt="">
+            </div>
+        </div>
+        <div class="x__container">
+            <img src="./Recursos/Icons/ICO__x.svg" alt="">
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/d46afd6531.js" crossorigin="anonymous"></script>
+    <script src="./JS/efecto--nav.js"></script>
+    <script src="./JS/efecto--input.js"></script>
+    <script src="./JS/efecto--imagen.js"></script>
+    <script src="./JS/efecto--carrusel.js"></script>
+    <script src="./JS/funcion--video.js"></script>
+    <script src="./JS/funcion--aside.js"></script>
+</body>
+</html>
