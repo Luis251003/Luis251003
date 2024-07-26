@@ -63,13 +63,19 @@ p{
     font-size: 4rem;
 
 }
+.section:first-child{
+    padding-top: 8rem;
+}
+.section{
+    padding: 17rem 0px;
+}
 @media(max-width:768px){
     .subtitulo{
         font-size: 3.5rem;
     }
-}
-.section{
-    padding: 17rem 0px;
+    .section{
+        padding: 10rem 0px;
+    }
 }
 
 /* ::::::::::: HEADER :::::::::::*/
@@ -802,6 +808,12 @@ p{
         display: block;
         max-width: 100%;
         padding: 2rem 0px;
+    }
+    .contacto__formulario h2{
+        font-size: 3.5rem;
+    }
+    .section--contacto .contacto__info h2{
+        font-size: 3.5rem;
     }
 }
 .formulario .btn-contacto i{
