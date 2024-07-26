@@ -994,20 +994,8 @@ p{
     .video__position{
         width: 90%;
     }
-    .arrow--left__container{
-        transform: translateX(9rem);
-    }
-    .arrow--right__container{
-        transform: translateX(-9rem);
-    }
     .arrow--left__container,
     .arrow--right__container{
-        top: auto;
-        bottom: -10rem;
-        height: 5rem;
-    }
-    .x__container{
-        height: 4rem;
-        width: 4rem;
+        display: none;
     }
 }
